@@ -1,38 +1,54 @@
-.App {
-  text-align: center;
+body {
+  background-color: rgb(53, 38, 38) !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar {
+  background-color: white;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.logo {
+  size: 10px !important;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: left;
+}
+.intro {
+  background-image: url("https://images.squarespace-cdn.com/content/v1/538e15c7e4b005e3dc5f3f61/1403717440644-I83DH3VYDNU8IB5VGG09/woodbathtub_02.jpg?format=1500w");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+  padding: 80px;
+}
+
+h1,
+h3 {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
+  text-decoration: underline;
+  margin: 100px;
+  padding: 60px;
+}
+p {
+  color: white;
+  font-size: 18px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.tubintro {
+  border-radius: 28%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
 }
 
-.App-link {
-  color: #61dafb;
+h4 {
+  color: white;
+  font-size: 16px;
+  font-weight: bolder;
+  text-align: center;
+  padding: 28px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.tubexample {
+  padding: 40px;
 }
