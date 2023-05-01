@@ -10,12 +10,14 @@
   display: flex;
   justify-content: left;
 }
-.intro {
-  background-image: url("https://images.squarespace-cdn.com/content/v1/538e15c7e4b005e3dc5f3f61/1403717440644-I83DH3VYDNU8IB5VGG09/woodbathtub_02.jpg?format=1500w");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: 100%;
-  padding: 80px;
+.card-title {
+  text-align: center;
+  color: white;
+  margin-top: 72px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 h1,
@@ -24,10 +26,10 @@ h3 {
   justify-content: center;
   color: white;
   text-decoration: underline;
-  margin: 100px;
-  padding: 60px;
+
+  padding: 32px;
 }
-p {
+.paragraph {
   color: white;
   font-size: 18px;
   padding: 20px;
@@ -51,4 +53,47 @@ h4 {
 
 .tubexample {
   padding: 40px;
+}
+ul {
+  color: white;
+  font-size: 14px;
+}
+.navigation-links {
+  display: flex;
+  justify-content: center;
+}
+.staircase-link,
+.bathtub-link,
+.furniture-link {
+  border-radius: 4px;
+  padding: 10px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: #6e614c;
+  box-shadow: black solid;
+  color: white;
+  font-size: 14px;
+}
+.contact {
+  background-color: #2b2721;
+}
+.hr {
+  border-color: white;
+}
+.footer {
+  color: white;
+  margin-left: 30px;
+}
+.three {
+  color: white;
+  margin-right: 30px;
+}
+p {
+  color: white;
+  margin-right: 16px;
+}
+em {
+  text-align: center;
+  color: white;
+  margin: 30px;
 }
